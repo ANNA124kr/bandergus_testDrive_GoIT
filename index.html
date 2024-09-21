@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Bandergus</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="preload" href="./img/img/gus-anim.gif" as="image">
+  <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+  <!-- <script src='js/form.js'></script> -->
+</head>
+<body>
+<!-- #region main-page -->
+  <section class="main-page">
+    <div class="wrapper">
+      <img class="logo" src="img/img/logo black.svg" alt="logo">
+      <div class="main-page-text-container">
+        <p class="main-page-hello-text">Доброго вечора, ми з України</p>
+        <h1 class="main-page-title">Бандерогусь</h1>
+        <p class="main-page-descr">
+        Спеціальний бойовий гусак із біолабораторій України. 
+        Пишаюся своїми подвигами, бороню Батьківщину та підтримую позитивний дух народу. 
+        Слава Україні!
+        </p>
+      <button class="main-page-btn" id="go-to-form-btn">Запустити гуся</button>
+      </div>
+      <img src="img/img/gus.svg" alt="Bandergus">
+    </div>
+  </section>
+<!-- #endregion -->
+  
+<!-- #region facts -->
+  <section class="facts">
+    <img 
+        class="facts-trezub" 
+        src="img/img/trezub.svg" 
+        alt="Trezub">
+    <h2 class="facts-title" >
+      Цікаві факти про бандерогусей
+    </h2>
+    <p class="facts-descr">
+      Зазвичай бандерогуси — виключно мирні птахи. Але у разі небезпеки можуть 
+      атакувати ворога системою надпотужного озброєння. 
+      Також нищать психологічно, активуючи високочастотне шипіння та розмахування крилами
+    </p>
+
+    <div class="wrapper">
+      <!-- #region fact 1 -->
+      <div class="facts-item">
+        <img src="img/img/gus1.svg" alt="Gus fact 1">
+        <h3 class="facts-item-title">
+          Система навігації
+        </h3>
+        <p class="facts-item-descr">
+          Супутниковий GPS та
+          ехолокатори розпізнають 
+          ворожу техніку навіть
+          на етапі збірки
+        </p>
+      </div>
+      <!-- #endregion -->
+
+      <!-- #region fact 2  -->
+      <div class="facts-item">
+        <img src="img/img/gus2.svg" alt="Gus fact 2">
+        <h3 class="facts-item-title">
+          Очі-тепловізори
+        </h3>
+        <p class="facts-item-descr">
+          Допомагають виявити характер
+          сигнатури об’єктів та значно підвищують
+          точність удару
+        </p>
+      </div>
+      <!-- #endregion -->
+
+      <!-- #region fact 3 -->
+      <div class="facts-item">
+        <img src="img/img/gus3.svg" alt="Gus fact 3">
+        <h3 class="facts-item-title">
+          Байракрила
+        </h3>
+        <p class="facts-item-descr">
+          Можуть нести 2-4 керовані ракети,
+          що вражають ціль на відстані «ніхріна собі»
+          кілометрів
+        </p>
+      </div>
+      <!-- #endregion -->
+    </div>
+
+  </section>
+<!-- #endregion -->
+
+<!-- #region form -->
+<section class="form-container">
+  <form class="form" action="#" id="form">
+    <img class="form-trezub" src="img/img/trezub.svg" alt="trezub">
+    <h4 class="form-title">Поділися, будь ласка, поштою</h4>
+    <p  
+      class="form-descr">
+      та запиши гуся до бандерозагону
+    </p>
+<!-- #region form-field-name -->
+    <div class="form-field form-field-name">
+      <label class="form-field-label" for="user-name">Ім'я</label>
+      <input class="form-input" type="text" id="user-name" >
+    </div>
+<!-- #endregion -->
+
+<!-- #region form-field-email -->
+    <div class="form-field form-field-email">
+      <label class="form-field-label" for="user-email">Email</label>
+      <input class="form-input" type="email" id="user-email" >
+    </div>
+<!-- #endregion -->
+
+    <button class="form-button" type="submit" id="launch-btn" >Запустити гуся</button>
+  </form>
+</section>
+<!-- #endregion -->
+
+<script src='js/form.js'></script>
+</body>
+</html>
